@@ -2,7 +2,7 @@
 export const fetchMovies = async () => {
     const baseUrl = `https://api.themoviedb.org/4/list/1`
     let headers = new Headers()
-    headers.append('Authorization', 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDQwMTA0NmMxYmJkNDM3NzFlODQ0YmU4YzQxNGFjYiIsInN1YiI6IjVmOTgzODJmZTE4Yjk3MDAzNGQwMzM1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.UXcm8LSGmfBILHmAZwdHac3aMU2_7Avb2t_D94CZxQQ')
+    headers.append('Authorization', process.env.REACT_APP_AUTH || '')
     headers.append('Content-Type', 'application/json;charset=utf-8');
 
     try {
