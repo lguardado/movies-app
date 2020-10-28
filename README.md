@@ -1,5 +1,8 @@
 # Created by Lucas Guardado
 
+## Live demo
+[Demo](https://movies-list-search.herokuapp.com/)
+
 ## how to run the project locally
 
 - rename the .env_sample file in the root directory and complete the token
