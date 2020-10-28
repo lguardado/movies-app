@@ -14,4 +14,5 @@ open your browser in `http://localhost:3000`
 
 notes: 
     Tests not added just for the sake of time. (time limit was 2 hours)
-    Styling is basic as well
+    Styling is basic as well as lack of a clear button for the search for instance
+
