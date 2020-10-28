@@ -1,0 +1,19 @@
+.Card {
+    box-sizing: border-box;
+    margin: 20px auto;
+    display: flex;
+    padding: 24px;
+    align-items: center;
+    -webkit-box-shadow: -2px 4px 21px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 21px -12px rgba(0,0,0,0.75);
+    box-shadow: -2px 4px 21px -12px rgba(0,0,0,0.75);
+}
+
+.Description {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.Image {
+    flex: 1
+}
