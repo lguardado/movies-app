@@ -14,8 +14,10 @@ const MoviesList: React.FunctionComponent<Props> = ({ list }) => {
         )
     )
 
-    return <ul style={{ padding: 0 }}>
-        {renderCards()}
-    </ul>
+    return (
+        <ul style={{ padding: 0 }}>
+            {renderCards()}
+        </ul>
+    )
 }
 export default MoviesList;
